@@ -1,7 +1,7 @@
 # MSSAkit
 A Python toolkit to analyse time series using Multivariate Singular Spectral Analysis (MSSA)
 
-# Readme and User Guide
+## Readme and User Guide
 
 The 'MSSAkit' package implements Multivariate Singular Spectrum Analysis (MSSA) as the main function in python. It implements also the Monte Carlo hypothesis to test the significance of the MSSA decompositions.
 
@@ -13,7 +13,7 @@ Beside MSSA, this package is also complemented with other functions of source se
 - Principal Component Analysis (PCA)
 - Cross Singular Value Decomposition (cross SVD)
 
-# HOW TO CITE
+## How to Cite
 To cite MSSAkit in publications, please refer to this article:
 Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability from the magnetic and gravity field observations. EGUsphere, 2023, pp.1-34.
 
