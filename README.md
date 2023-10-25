@@ -19,12 +19,12 @@ Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability fro
 
 ## Installation
 
-Install from source:: 
-'''bash
-    $ git clone https://github.com/zzheng93/pyEOF.git
-    $ cd mssakit
-    $ python setup.py install
-'''
+Install from source:
+```python
+git clone https://github.com/anitasaraswati/mssakit.git
+cd mssakit
+python setup.py install
+```
 
 ## Contributing
 
