@@ -23,7 +23,7 @@ Install from source:
 ```python
 git clone https://github.com/anitasaraswati/MSSAkit.git
 cd mssakit
-python setup.py install
+python setup.py install --single-version-externally-managed --root=/
 ```
 
 ## Contributing
