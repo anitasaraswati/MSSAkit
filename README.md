@@ -18,13 +18,14 @@ To cite MSSAkit in publications, please refer to this article:
 Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability from the magnetic and gravity field observations. EGUsphere, 2023, pp.1-34.
 
 ## Installation
-
 Install from source:
 ```python
 git clone https://github.com/anitasaraswati/MSSAkit.git
 cd mssakit
 python setup.py install --single-version-externally-managed --root=/
 ```
+Or replace the last line to install the package using pip:
+```pip install```
 
 ## Contributing
 
