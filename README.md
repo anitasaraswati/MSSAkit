@@ -25,7 +25,9 @@ cd mssakit
 python setup.py install --single-version-externally-managed --root=/
 ```
 Or replace the last line to install the package using pip:
-```pip install```
+```python
+pip install .
+```
 
 ## Contributing
 
