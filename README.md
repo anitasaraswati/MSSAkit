@@ -3,7 +3,7 @@ A Python toolkit to analyse time series using Multivariate Singular Spectral Ana
 
 ## Readme and User Guide
 
-The 'MSSAkit' package implements Multivariate Singular Spectrum Analysis (MSSA) as the main function in python. It implements also the Monte Carlo hypothesis to test the significance of the MSSA decompositions.
+The 'MSSAkit' package implements Multivariate Singular Spectrum Analysis (MSSA) as the main function in Python. It also implements the Monte Carlo hypothesis to test the significance of the MSSA decompositions.
 
 The methodology is based on:
 Groth, A., Feliks, Y., Kondrashov, D. and Ghil, M., 2017. Interannual variability in the North Atlantic ocean’s temperature field and its association with the wind stress forcing. Journal of Climate, 30(7), pp.2655-2678 (https://doi.org/10.1175/JCLI-D-16-0370.1).
@@ -19,14 +19,23 @@ Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability fro
 
 ## Installation
 Install from source:
+
+First, clone this repository from GitHub:
 ```python
 git clone https://github.com/anitasaraswati/MSSAkit.git
 cd mssakit
+```
+And run this line to install:
+```python
 python setup.py install --single-version-externally-managed --root=/
 ```
 Or replace the last line to install the package using pip:
 ```python
 pip install .
+```
+If you wish to install the required packages using **conda**, use this line to install MSSAkit:
+```python
+python setup.py --use-conda install --single-version-externally-managed --root=/
 ```
 
 ## Contributing
