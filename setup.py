@@ -1,15 +1,22 @@
+#!/usr/bin/env python
+
 from setuptools import setup, find_packages
+import sys
 import subprocess
+import os
 
 REQUIREMENTS = [
-    'sys',
     'statsmodels',
     'numpy',    
     'scipy',
     'tqdm',
     'matplotlib',
+    'cartopy'
 ]
 
+if '--use-conda' in sys.argv:
+    subprocess.check_call(['conda', 'install', '--file', 'requirements.txt'])
+    sys.argv.remove('--use-conda')  # Remove the custom argument
 
 setup(name='mssakit',
       version="0.1",
@@ -18,7 +25,7 @@ setup(name='mssakit',
       author_email='anitatheasaraswato@gmail.com; olivier.de_viron@univ-lr.fr',
       url='github page',
       packages=find_packages(),
-      package_dir={'pymssa':'pymssa'},
+      package_dir={'mssakit':'mssakit'},
       include_package_data=True,
       install_requires=REQUIREMENTS,
       keywords='Multivariate Singular Spectrum Analysis (MSSA) kit')
