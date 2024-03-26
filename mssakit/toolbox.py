@@ -2,7 +2,7 @@
 """
 Created on Fri Dec 28 14:35:57 2012
 
-@author: Olivier
+@author: Olivier, modified by Anita (2023)
 """
 from scipy.optimize import fminbound    
 
