@@ -10,6 +10,7 @@ from os import chdir
 from struct import *
 import numpy as np
 import random as ra
+import math
 from numpy import *
 from numpy import fft as fft
 from matplotlib.pyplot import *
