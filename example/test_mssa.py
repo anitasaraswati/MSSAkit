@@ -44,7 +44,7 @@ yy=unique(lat)
 yy=flip(yy)
 
 # %% Apply MSSA to the datasets
-dmssa = mssa(tseries,t=t_tseries,sampling_interval=12,M=110,pre_pca=True,n_pc=15,varimax=True)
+dmssa = mssa(tseries,t=t_tseries,sampling_interval=12,n_rec=25,M=110,pre_pca=True,n_pc=15,varimax=True)
 # %
 nn=arange(50,229)
 dmssa.mcmssa(siglevel=95, Ns=100, norotate=nn)
