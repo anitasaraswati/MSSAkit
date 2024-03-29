@@ -37,6 +37,9 @@ class mssa:
         K = N - M + 1. As such, window_size should be no greater than N // 2. If
         left as None, MSSA will select N // 3.
         
+    n_rec : int | None
+        The number of the reconstructed components that is generated from the MSSA process. The default is 50.
+        
     pre_pca : boolean
         PCA is applied to the data before applying MSSA to reduce its dimension. The default is False.
     
@@ -115,6 +118,7 @@ class mssa:
     def __init__(self,
                  ts,                 
                  M=None,
+                 n_rec=50,
                  pre_pca=False,
                  n_pc=None,
                  varimax=False,
@@ -212,10 +216,9 @@ class mssa:
         self.right_vectors = EV
         self.singularvalue = EW
         self.eigenvalue = eigval
-            
         
         # % get V and R in all pc
-        NC = min(xtde.shape)
+        NC = n_rec
         FF=zeros(NC)
         a=zeros((N,D))
         A=zeros((L,NC));
