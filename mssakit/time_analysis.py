@@ -24,11 +24,11 @@ from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
 from scipy import fftpack
 
 def dominant_freq(ts,fs=1,ncomp=None):
-    nt = ts.shape[1]
+    nt = ts.shape[0]
     F = []
        
     if ncomp is None:
-        ncomp = nt
+        ncomp = ts.shape[1]
         
     nfft = max([nt, 2**ceil(log2(nt))])
     
@@ -42,13 +42,13 @@ def dominant_freq(ts,fs=1,ncomp=None):
     return F
 
 def dominant_period(ts,fs=1,ncomp=None,uncertainty=False,nsuro=100):
-    nt = ts.shape[1]
+    nt = ts.shape[0]
     
     if uncertainty:
         sigma_T=[]
     
     if ncomp is None:
-        ncomp = nt
+        ncomp = ts.shape[1]
         
     nfft = max([nt, 2**ceil(log2(nt))])
     
