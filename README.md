@@ -14,7 +14,10 @@ Beside MSSA, this package is also complemented with other functions of source se
 - Cross Singular Value Decomposition (cross SVD)
 
 ## How to Cite
-To cite MSSAkit in publications, please refer to this article:
+To cite MSSAkit in publications, please refer to this citation:
+Saraswati, A. T., & de Viron, O. (2023). anitasaraswati/MSSAkit: MSSAkit v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10377708
+
+And for an example of the extensive use of MSSAkit, please refer also to this article:
 Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability from the magnetic and gravity field observations. EGUsphere, 2023, pp.1-34.
 
 ## Installation
