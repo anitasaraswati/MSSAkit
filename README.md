@@ -18,7 +18,7 @@ To cite MSSAkit in publications, please refer to this citation:
 Saraswati, A. T., & de Viron, O. (2023). anitasaraswati/MSSAkit: MSSAkit v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.10377708
 
 And for an example of the extensive use of MSSAkit, please refer also to this article:
-Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability from the magnetic and gravity field observations. EGUsphere, 2023, pp.1-34.
+Saraswati, A.T., de Viron, O. and Mandea, M., 2023. Earth's core variability from the magnetic and gravity field observations. EGUsphere, 2023, pp.1-34. https://doi.org/10.5194/se-14-1267-2023
 
 ## Installation
 Install from source:
